@@ -1,0 +1,55 @@
+@media screen and (max-width: 600px) {
+  .parent {
+    height: 1100px;
+    width: 390px;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .parent .containerA {
+    width: 390px;
+  }
+  .parent .descriptor {
+    font-size: 24px;
+    height: 150px;
+    width: 390px;
+  }
+  .parent .imageAbout {
+    margin-left: 60px;
+    height: 204px;
+    width: 190px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .parent {
+    display: flex;
+    flex-direction: row;
+  }
+}
+@media screen and (max-width: 600px) {
+  .squares {
+    height: 3000px;
+    width: 400px;
+  }
+}
+@media screen and (min-width: 600px) {
+  .squares {
+    height: 3000px;
+    width: 400px;
+  }
+}
+@media screen and (min-width: 900px) {
+  .squares {
+    height: 2000px;
+    width: 700px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .squares {
+    height: 1000px;
+    width: 1000px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+  }
+}
+/*# sourceMappingURL=mediaQueries.css.map */

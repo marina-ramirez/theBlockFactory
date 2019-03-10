@@ -1,0 +1,17 @@
+@media screen and (min-width: 600px) {
+  .container {
+    display: flex;
+    height: 2050px;
+    justify-content: center;
+    flex-flow: row wrap;
+  }
+  .match {
+    width: 500px;
+    height: 500px;
+    margin-right: 10px;
+  }
+}
+.logo {
+  display: flex;
+}
+/*# sourceMappingURL=products.css.map */

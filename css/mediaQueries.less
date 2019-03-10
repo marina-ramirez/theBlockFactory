@@ -1,0 +1,49 @@
+// About section
+@media screen and (max-width: 600px) {
+  .parent{
+    flex-direction: column;
+    justify-content: center;
+    .containerA{
+      width: 390px;
+    }
+    .descriptor {
+      font-size: 24px;
+      height: 150px;
+      width: 390px;
+    }
+    .imageAbout {
+      margin-left: 60px;
+      height: 204px;
+      width: 190px;
+    }
+    img{
+      height: 306px;
+      width: 285px;
+    }
+  }
+}
+@media screen and (min-width: 1200px) {
+  .parent{
+    flex-direction: row;
+  }
+}
+
+// Products section
+@media screen and (max-width: 600px) {
+  .squares{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .squares {
+    display: flex;
+  }
+}
+@media (min-width: 1200px) and (min-height: 1079px){
+  .squares{
+    display: flex;
+  }
+}
